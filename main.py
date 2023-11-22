@@ -2,4 +2,6 @@
 #Dylan Baker
 #20/11/2023
 
-StartupUI.Initiate()
+from subprocess import STARTUPINFO
+
+STARTUPINFO.Initiate()
