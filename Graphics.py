@@ -10,6 +10,6 @@ y = (window.winfo_screenheight()//2)-(height//2)
 window.geometry('{}x{}+{}+{}'.format(width, height, x, y))
 window.overrideredirect(TRUE)
 window.resizable(FALSE, FALSE)
-window.config(background="#A9A9A9")
+window.config(background="#5F5F5F")
 
 window.mainloop()
