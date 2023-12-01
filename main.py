@@ -1,7 +1,6 @@
 #SHADDO.bat remake for Python 3.10
-#Dylan Baker
-#20/11/2023
+#
+import Graphics
 
-from subprocess import STARTUPINFO
-
-STARTUPINFO.Initiate()
+#Start of the program, this gives a cool startup graphical
+Graphics.Initiate()
