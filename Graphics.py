@@ -16,7 +16,7 @@ window.config(background="#5F5F5F")
 welcome_label = Label(text="Starting", bg="#5F5F5F", font=("Trebuchet Ms", 15, "bold"), fg="#FFFFFF")
 welcome_label.place(x=130, y=65)
 
-bg_label = Label(window, image=image, bg="#5F5F5F")
+bg_label = Label(window, image=loadscreenimg, bg="#5F5F5F")
 bg_label.place(x=190, y=330)
 
 progress_label = Label(window, text="Loading...", font=("Trebuchet Ms", 13, "bold"), fg="#FFFFFF", bg="#5F5F5F")
