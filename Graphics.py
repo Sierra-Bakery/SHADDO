@@ -1,7 +1,7 @@
 import sys
 import time
 import random
-def initiatescreen():
+def Loadscreen():
     print("< Initiating SHADDO.exe >")
     time.sleep(0.9)
     for i in range(101):
@@ -10,5 +10,3 @@ def initiatescreen():
         sys.stdout.flush()
         time.sleep((random.randint(1,100)*0.001))
     print("\n< SHADDO.exe Initiated Sucessfully >")
-
-e = initiatescreen()
