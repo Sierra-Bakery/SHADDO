@@ -3,4 +3,4 @@
 import Graphics
 
 #Start of the program, this gives a cool startup graphical
-Graphics.Initiate()
+Graphics.Loadscreen()
